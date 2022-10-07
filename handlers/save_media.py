@@ -49,14 +49,14 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
                 InlineKeyboardButton("Delete Batch", callback_data="closeMessage")
             ]])
         )
-        share_link = f"https://t.me/{Config.BOT_USERNAME}?start=PredatorHackerzZ_{str_to_b64(str(SaveMessage.id))}"
+        share_link = f"https://t.me/{Config.BOT_USERNAME}?start=dailyalltvshows_{str_to_b64(str(SaveMessage.id))}"
         await editable.edit(
             f"**Batch Files Stored in my Database!**\n\nHere is the Permanent Link of your files: {share_link} \n\n"
             f"Just Click the link to get your files!",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Bots Channel", url="https://t.me/TeleRoidGroup"),
-                  InlineKeyboardButton("Support Group", url="https://t.me/TeleRoid14")]]
+                 [InlineKeyboardButton("Bots Channel", url="https://t.me/dailyalltvshows"),
+                  InlineKeyboardButton("Support Group", url="https://t.me/dailyalltvshows")]]
             ),
             disable_web_page_preview=True
         )
