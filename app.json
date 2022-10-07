@@ -8,8 +8,8 @@
         "bot"
     ],
     "repository": "https://github.com/PredatorHackerzZ/TG-FileStore",
-    "website": "https://telegram.dog/PredatorHackerzZ",
-    "success_url": "https://t.me/TeleRoidGroup",
+    "website": "https://telegram.dog/dailyalltvshows",
+    "success_url": "https://t.me/dailyalltvshows",
     "logo": "https://telegra.ph/file/b39906f572822b3ab82c8.jpg",
     "env": {
         "API_ID": {
